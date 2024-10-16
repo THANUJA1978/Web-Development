@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.toc {
+    width: 20%;
+    background-color: #f8f9fa;
+    padding: 10px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.content {
+    width: 80%;
+    padding: 20px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.toc h2 {
+    font-size: 20px;
+}
+
+.toc ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.toc ul li {
+    margin: 5px 0;
+}
+
+.toc ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.toc ul li a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+.collapsible .content {
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #f1f1f1;
+    border-left: 4px solid #007bff;
+}

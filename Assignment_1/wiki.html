@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mutyala Thanuja - Wikipedia</title>
+</head>
+<body>
+    <div class="toc">
+        <h2>Contents</h2>
+        <ul id="toc-list">
+            
+        </ul>
+    </div>
+
+    <div class="content">
+        <section id="about">
+            <button class="toggle-button">About</button>
+            <div class="content" style="display: none;">
+                <p>
+                    I am a driven and detail-oriented individual with good problem-solving abilities and a passion
+                    for leveraging technology to create impactful solutions. I thrive in teamwork and effective communication, demonstrating
+                    leadership and collaboration in diverse projects. I am curious and enthusiastic about learning and exploring new areas in technology.
+                </p>
+            </div>
+        </section>
+
+        <section id="education">
+            <button class="toggle-button">Education</button>
+            <div class="content" style="display: none;">
+                <div class="collapsible">
+                    <button onclick="toggleSection(this)">Vellore Institute of Technology, Amaravati</button>
+                    <div class="content" style="display: none;">
+                        <p>BTech in Computer Science and Engineering</p>
+                    </div>
+                </div>
+                <div class="collapsible">
+                    <button onclick="toggleSection(this)">Rajiv Gandhi University of Knowledge and Technologies, IIIT RK Valley</button>
+                    <div class="content" style="display: none;">
+                        <p>Completed PUC</p>
+                    </div>
+                </div>
+                <div class="collapsible">
+                    <button onclick="toggleSection(this)">Keshava Reddy Public School</button>
+                    <div class="content" style="display: none;">
+                        <p>Board of Secondary Education, Andhra Pradesh</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <button class="toggle-button">Skills</button>
+            <div class="content" style="display: none;">
+                <ul>
+                    <li>Languages: Python, Java, R, HTML, CSS</li>
+                    <li>Git, LaTeX - Beginner</li>
+                    <li>Artificial Intelligence using Google TensorFlow</li>
+                    <li>Foundation for Data Analytics</li>
+                    <li>Database Management System</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <button class="toggle-button">Projects</button>
+            <div class="content" style="display: none;">
+                <div class="collapsible">
+                    <button onclick="toggleSection(this)">Stock Market Analysis and Prediction</button>
+                    <div class="content" style="display: none;">
+                        <p>Tools & technologies used: Python, Pandas, NumPy, Matplotlib, Scikit-learn</p>
+                        <p>Developed a stock price prediction algorithm using historical data and market indicators with a Decision Tree model, achieving 98% accuracy.</p>
+                    </div>
+                </div>
+                <div class="collapsible">
+                    <button onclick="toggleSection(this)">Blind Man Walking Stick</button>
+                    <div class="content" style="display: none;">
+                        <p>Tools & technologies used: Arduino Uno, Servo Motors, Ultrasonic Sensors, Arduino IDE</p>
+                        <p>Created an effective and user-friendly mobility aid for visually impaired individuals, improving their independence in navigating their surroundings.</p>
+                    </div>
+                </div>
+                <div class="collapsible">
+                    <button onclick="toggleSection(this)">CovidVision: Advanced COVID-19 Detection From Lung X-Rays</button>
+                    <div class="content" style="display: none;">
+                        <p>Tools & technologies used: Python, TensorFlow, Keras, Xception Model, Matplotlib</p>
+                        <p>Developed an advanced COVID-19 detection algorithm using lung X-ray images. Utilized the Xception deep learning model for image classification, achieving 87% accuracy.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="accomplishments">
+            <button class="toggle-button">Accomplishments</button>
+            <div class="content" style="display: none;">
+                <div class="collapsible">
+                    <button onclick="toggleSection(this)">Accomplishment 1</button>
+                    <div class="content" style="display: none;">
+                        <p>Secured 255 rank in RGUKT CET, gaining admission to IIIT RGUKT.</p>
+                    </div>
+                </div>
+                <div class="collapsible">
+                    <button onclick="toggleSection(this)">Accomplishment 2</button>
+                    <div class="content" style="display: none;">
+                        <p>Cleared IIIT Hyderabad SPEC exam.</p>
+                    </div>
+                </div>
+                <div class="collapsible">
+                    <button onclick="toggleSection(this)">Accomplishment 3</button>
+                    <div class="content" style="display: none;">
+                        <p>Selected for TalentSprint's Women Engineers Program, supported by Google.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
